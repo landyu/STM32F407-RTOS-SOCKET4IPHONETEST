@@ -1,0 +1,1965 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\Project.uvproj
+Project File Date:  09/19/2013
+
+<h2>Output:</h2>
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+..\src\Myserver.c(82): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(194): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(200): warning:  #177-D: variable "Ret" was declared but never referenced
+linking...
+Program Size: Code=48716 RO-data=6572 RW-data=484 ZI-data=53412  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+..\src\Myserver.c(82): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(194): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(200): warning:  #177-D: variable "Ret" was declared but never referenced
+linking...
+Program Size: Code=48776 RO-data=6572 RW-data=484 ZI-data=53412  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+..\src\Myserver.c(82): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(194): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(200): warning:  #177-D: variable "Ret" was declared but never referenced
+linking...
+Program Size: Code=48800 RO-data=6572 RW-data=484 ZI-data=53412  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+..\src\Myserver.c(82): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(198): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(204): warning:  #177-D: variable "Ret" was declared but never referenced
+linking...
+Program Size: Code=48860 RO-data=6572 RW-data=484 ZI-data=53412  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+***JLink Error: CPU not halted
+***JLink Error: Can not read register 15 (R15) while CPU is running
+Programming Failed!
+***JLink Error: Could not read memory location 0x20000000 when trying to clear soft RAM BP
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+..\src\Myserver.c(82): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(199): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(205): warning:  #177-D: variable "Ret" was declared but never referenced
+linking...
+Program Size: Code=48884 RO-data=6572 RW-data=484 ZI-data=53412  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+..\src\Myserver.c(82): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(199): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(205): warning:  #177-D: variable "Ret" was declared but never referenced
+linking...
+Program Size: Code=48892 RO-data=6572 RW-data=484 ZI-data=53412  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+..\src\Myserver.c(87): error:  #29: expected an expression
+..\src\Myserver.c(82): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(199): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(205): warning:  #177-D: variable "Ret" was declared but never referenced
+Target not created
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+..\src\Myserver.c(82): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(199): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(205): warning:  #177-D: variable "Ret" was declared but never referenced
+linking...
+Program Size: Code=48896 RO-data=6572 RW-data=484 ZI-data=53412  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM324xG_EVAL'
+compiling main.c...
+compiling netconf.c...
+compiling stm32f4xx_it.c...
+compiling fs.c...
+compiling Myserver.c...
+..\src\Myserver.c(82): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(199): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(205): warning:  #177-D: variable "Ret" was declared but never referenced
+compiling api_lib.c...
+compiling api_msg.c...
+..\..\..\..\Utilities\Third_Party\lwip_v1.3.2\src\api\api_msg.c(496): warning: C3017W: size may be used before being set
+compiling err.c...
+compiling netbuf.c...
+compiling netdb.c...
+compiling netifapi.c...
+compiling sockets.c...
+compiling tcpip.c...
+compiling dhcp.c...
+compiling dns.c...
+compiling init.c...
+compiling mem.c...
+compiling memp.c...
+compiling netif.c...
+compiling pbuf.c...
+compiling raw.c...
+compiling stats.c...
+compiling sys.c...
+compiling tcp.c...
+compiling tcp_in.c...
+compiling tcp_out.c...
+..\..\..\..\Utilities\Third_Party\lwip_v1.3.2\src\core\tcp_out.c(465): warning:  #550-D: variable "tcphdr" was set but never used
+..\..\..\..\Utilities\Third_Party\lwip_v1.3.2\src\core\tcp_out.c(935): warning:  #550-D: variable "tcphdr" was set but never used
+compiling udp.c...
+compiling autoip.c...
+compiling icmp.c...
+compiling igmp.c...
+compiling inet.c...
+compiling inet_chksum.c...
+compiling ip.c...
+compiling ip_addr.c...
+compiling ip_frag.c...
+compiling etharp.c...
+compiling loopif.c...
+compiling slipif.c...
+compiling ethernetif.c...
+compiling sys_arch.c...
+linking...
+Program Size: Code=48896 RO-data=6572 RW-data=484 ZI-data=53412  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 6 Warning(s).
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM324xG_EVAL'
+compiling main.c...
+compiling netconf.c...
+compiling stm32f4xx_it.c...
+compiling fs.c...
+compiling Myserver.c...
+..\src\Myserver.c(82): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(199): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(205): warning:  #177-D: variable "Ret" was declared but never referenced
+compiling api_lib.c...
+compiling api_msg.c...
+..\..\..\..\Utilities\Third_Party\lwip_v1.3.2\src\api\api_msg.c(496): warning: C3017W: size may be used before being set
+compiling err.c...
+compiling netbuf.c...
+compiling netdb.c...
+compiling netifapi.c...
+compiling sockets.c...
+compiling tcpip.c...
+compiling dhcp.c...
+compiling dns.c...
+compiling init.c...
+compiling mem.c...
+compiling memp.c...
+compiling netif.c...
+compiling pbuf.c...
+compiling raw.c...
+compiling stats.c...
+compiling sys.c...
+compiling tcp.c...
+compiling tcp_in.c...
+compiling tcp_out.c...
+..\..\..\..\Utilities\Third_Party\lwip_v1.3.2\src\core\tcp_out.c(465): warning:  #550-D: variable "tcphdr" was set but never used
+..\..\..\..\Utilities\Third_Party\lwip_v1.3.2\src\core\tcp_out.c(935): warning:  #550-D: variable "tcphdr" was set but never used
+compiling udp.c...
+compiling autoip.c...
+compiling icmp.c...
+compiling igmp.c...
+compiling inet.c...
+compiling inet_chksum.c...
+compiling ip.c...
+compiling ip_addr.c...
+compiling ip_frag.c...
+compiling etharp.c...
+compiling loopif.c...
+compiling slipif.c...
+compiling ethernetif.c...
+compiling sys_arch.c...
+linking...
+Program Size: Code=51292 RO-data=6644 RW-data=484 ZI-data=53412  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 6 Warning(s).
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+..\src\Myserver.c(73): warning:  #550-D: variable "ret" was set but never used
+..\src\Myserver.c(74): warning:  #177-D: variable "recLen" was declared but never referenced
+..\src\Myserver.c(75): warning:  #177-D: variable "jasonLen" was declared but never referenced
+..\src\Myserver.c(76): warning:  #177-D: variable "recStatus" was declared but never referenced
+..\src\Myserver.c(77): warning:  #177-D: variable "smxgHeader" was declared but never referenced
+..\src\Myserver.c(78): warning:  #177-D: variable "ReCvBuf" was declared but never referenced
+..\src\Myserver.c(79): warning:  #177-D: variable "jasonReCvBuf" was declared but never referenced
+..\src\Myserver.c(81): warning:  #177-D: variable "cmd_obj" was declared but never referenced
+..\src\Myserver.c(82): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(83): warning:  #177-D: variable "type" was declared but never referenced
+..\src\Myserver.c(84): warning:  #177-D: variable "addr" was declared but never referenced
+..\src\Myserver.c(85): warning:  #177-D: variable "value" was declared but never referenced
+..\src\Myserver.c(100): warning:  #177-D: label "sktselect" was declared but never referenced
+..\src\Myserver.c(199): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(205): warning:  #177-D: variable "Ret" was declared but never referenced
+linking...
+Program Size: Code=37440 RO-data=6456 RW-data=452 ZI-data=52900  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 15 Warning(s).
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+..\src\Myserver.c(73): warning:  #550-D: variable "ret" was set but never used
+..\src\Myserver.c(74): warning:  #177-D: variable "recLen" was declared but never referenced
+..\src\Myserver.c(75): warning:  #177-D: variable "jasonLen" was declared but never referenced
+..\src\Myserver.c(76): warning:  #177-D: variable "recStatus" was declared but never referenced
+..\src\Myserver.c(77): warning:  #177-D: variable "smxgHeader" was declared but never referenced
+..\src\Myserver.c(78): warning:  #177-D: variable "ReCvBuf" was declared but never referenced
+..\src\Myserver.c(79): warning:  #177-D: variable "jasonReCvBuf" was declared but never referenced
+..\src\Myserver.c(81): warning:  #177-D: variable "cmd_obj" was declared but never referenced
+..\src\Myserver.c(82): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(83): warning:  #177-D: variable "type" was declared but never referenced
+..\src\Myserver.c(84): warning:  #177-D: variable "addr" was declared but never referenced
+..\src\Myserver.c(85): warning:  #177-D: variable "value" was declared but never referenced
+..\src\Myserver.c(100): warning:  #177-D: label "sktselect" was declared but never referenced
+..\src\Myserver.c(199): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(205): warning:  #177-D: variable "Ret" was declared but never referenced
+linking...
+Program Size: Code=37444 RO-data=6456 RW-data=452 ZI-data=52900  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 15 Warning(s).
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+..\src\Myserver.c(82): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(199): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(205): warning:  #177-D: variable "Ret" was declared but never referenced
+linking...
+Program Size: Code=51292 RO-data=6644 RW-data=484 ZI-data=53412  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM324xG_EVAL'
+compiling main.c...
+compiling netconf.c...
+compiling stm32f4xx_it.c...
+compiling fs.c...
+compiling Myserver.c...
+..\src\Myserver.c(82): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(199): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(205): warning:  #177-D: variable "Ret" was declared but never referenced
+compiling api_lib.c...
+compiling api_msg.c...
+..\..\..\..\Utilities\Third_Party\lwip_v1.3.2\src\api\api_msg.c(496): warning: C3017W: size may be used before being set
+compiling err.c...
+compiling netbuf.c...
+compiling netdb.c...
+compiling netifapi.c...
+compiling sockets.c...
+compiling tcpip.c...
+compiling dhcp.c...
+compiling dns.c...
+compiling init.c...
+compiling mem.c...
+compiling memp.c...
+compiling netif.c...
+compiling pbuf.c...
+compiling raw.c...
+compiling stats.c...
+compiling sys.c...
+compiling tcp.c...
+compiling tcp_in.c...
+compiling tcp_out.c...
+..\..\..\..\Utilities\Third_Party\lwip_v1.3.2\src\core\tcp_out.c(465): warning:  #550-D: variable "tcphdr" was set but never used
+..\..\..\..\Utilities\Third_Party\lwip_v1.3.2\src\core\tcp_out.c(935): warning:  #550-D: variable "tcphdr" was set but never used
+compiling udp.c...
+compiling autoip.c...
+compiling icmp.c...
+compiling igmp.c...
+compiling inet.c...
+compiling inet_chksum.c...
+compiling ip.c...
+compiling ip_addr.c...
+compiling ip_frag.c...
+compiling etharp.c...
+compiling loopif.c...
+compiling slipif.c...
+compiling ethernetif.c...
+compiling sys_arch.c...
+linking...
+Program Size: Code=48896 RO-data=6572 RW-data=484 ZI-data=53412  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 6 Warning(s).
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+..\src\Myserver.c(82): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(208): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(214): warning:  #177-D: variable "Ret" was declared but never referenced
+linking...
+Program Size: Code=49164 RO-data=6572 RW-data=484 ZI-data=53412  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+..\src\Myserver.c(82): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(208): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(214): warning:  #177-D: variable "Ret" was declared but never referenced
+linking...
+Program Size: Code=49136 RO-data=6572 RW-data=484 ZI-data=53412  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+..\src\Myserver.c(82): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(209): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(215): warning:  #177-D: variable "Ret" was declared but never referenced
+linking...
+Program Size: Code=49184 RO-data=6572 RW-data=484 ZI-data=53412  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+..\src\Myserver.c(82): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(209): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(215): warning:  #177-D: variable "Ret" was declared but never referenced
+linking...
+Program Size: Code=49212 RO-data=6572 RW-data=484 ZI-data=53412  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+..\src\Myserver.c(82): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(210): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(216): warning:  #177-D: variable "Ret" was declared but never referenced
+linking...
+Program Size: Code=49208 RO-data=6572 RW-data=484 ZI-data=53412  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+..\src\Myserver.c(82): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(210): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(216): warning:  #177-D: variable "Ret" was declared but never referenced
+linking...
+Program Size: Code=49208 RO-data=6572 RW-data=484 ZI-data=53412  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+..\src\Myserver.c(82): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(210): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(216): warning:  #177-D: variable "Ret" was declared but never referenced
+linking...
+Program Size: Code=49280 RO-data=6588 RW-data=484 ZI-data=53412  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+..\src\Myserver.c(82): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(210): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(216): warning:  #177-D: variable "Ret" was declared but never referenced
+linking...
+Program Size: Code=49280 RO-data=6588 RW-data=484 ZI-data=53412  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+..\src\Myserver.c(82): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(210): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(216): warning:  #177-D: variable "Ret" was declared but never referenced
+linking...
+Program Size: Code=49280 RO-data=6588 RW-data=484 ZI-data=53412  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+..\src\Myserver.c(82): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(210): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(216): warning:  #177-D: variable "Ret" was declared but never referenced
+linking...
+Program Size: Code=49284 RO-data=6588 RW-data=484 ZI-data=53412  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM324xG_EVAL'
+compiling system_stm32f4xx.c...
+compiling main.c...
+compiling netconf.c...
+compiling stm32f4x7_eth_bsp.c...
+compiling stm32f4xx_it.c...
+Project build/rebuild aborted.
+Target not created
+Build target 'STM324xG_EVAL'
+compiling fs.c...
+compiling serial_debug.c...
+compiling Myserver.c...
+..\inc\myjason.h(16): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(16): error:  #18: expected a ")"
+..\inc\myjason.h(17): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(17): error:  #18: expected a ")"
+..\inc\myjason.h(18): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(18): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(18): error:  #18: expected a ")"
+..\inc\myjason.h(19): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(26): warning:  #1-D: last line of file ends without a newline
+..\src\Myserver.c(168): warning:  #223-D: function "json_tokener_parse" declared implicitly
+..\src\Myserver.c(168): error:  #513: a value of type "int" cannot be assigned to an entity of type "struct json_object *"
+..\src\Myserver.c(172): warning:  #223-D: function "json_object_object_get" declared implicitly
+..\src\Myserver.c(172): error:  #44: expression must have pointer type
+..\src\Myserver.c(173): error:  #44: expression must have pointer type
+..\src\Myserver.c(174): error:  #44: expression must have pointer type
+..\src\Myserver.c(177): warning:  #223-D: function "json_object_put" declared implicitly
+..\src\Myserver.c(83): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(211): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(217): warning:  #177-D: variable "Ret" was declared but never referenced
+compiling myjason.c...
+..\inc\myjason.h(16): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(16): error:  #18: expected a ")"
+..\inc\myjason.h(17): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(17): error:  #18: expected a ")"
+..\inc\myjason.h(18): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(18): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(18): error:  #18: expected a ")"
+..\inc\myjason.h(19): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(26): warning:  #1-D: last line of file ends without a newline
+..\src\myjason.c(8): error:  #20: identifier "bool" is undefined
+..\src\myjason.c(10): error:  #20: identifier "bool" is undefined
+..\src\myjason.c(10): error:  #18: expected a ")"
+..\src\myjason.c(10): error:  #141-D: unnamed prototyped parameters not allowed when body is present
+..\src\myjason.c(13): error:  #20: identifier "bool" is undefined
+..\src\myjason.c(16): error:  #20: identifier "false" is undefined
+..\src\myjason.c(19): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(22): error:  #20: identifier "false" is undefined
+..\src\myjason.c(27): error:  #20: identifier "false" is undefined
+..\src\myjason.c(30): error:  #20: identifier "var" is undefined
+..\src\myjason.c(31): error:  #20: identifier "true" is undefined
+..\src\myjason.c(34): error:  #20: identifier "bool" is undefined
+..\src\myjason.c(34): error:  #18: expected a ")"
+..\src\myjason.c(34): error:  #141-D: unnamed prototyped parameters not allowed when body is present
+..\src\myjason.c(37): error:  #20: identifier "bool" is undefined
+..\src\myjason.c(40): error:  #20: identifier "false" is undefined
+..\src\myjason.c(43): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(46): error:  #20: identifier "false" is undefined
+..\src\myjason.c(51): error:  #20: identifier "false" is undefined
+..\src\myjason.c(54): error:  #20: identifier "var" is undefined
+..\src\myjason.c(55): error:  #20: identifier "true" is undefined
+..\src\myjason.c(58): error:  #20: identifier "bool" is undefined
+compiling api_lib.c...
+compiling api_msg.c...
+..\..\..\..\Utilities\Third_Party\lwip_v1.3.2\src\api\api_msg.c(496): warning: C3017W: size may be used before being set
+compiling err.c...
+compiling netbuf.c...
+compiling netdb.c...
+compiling netifapi.c...
+compiling sockets.c...
+compiling tcpip.c...
+compiling dhcp.c...
+compiling dns.c...
+compiling init.c...
+compiling mem.c...
+compiling memp.c...
+compiling netif.c...
+compiling pbuf.c...
+compiling raw.c...
+compiling stats.c...
+compiling sys.c...
+compiling tcp.c...
+compiling tcp_in.c...
+compiling tcp_out.c...
+..\..\..\..\Utilities\Third_Party\lwip_v1.3.2\src\core\tcp_out.c(465): warning:  #550-D: variable "tcphdr" was set but never used
+..\..\..\..\Utilities\Third_Party\lwip_v1.3.2\src\core\tcp_out.c(935): warning:  #550-D: variable "tcphdr" was set but never used
+compiling udp.c...
+compiling autoip.c...
+compiling icmp.c...
+compiling igmp.c...
+compiling inet.c...
+compiling inet_chksum.c...
+compiling ip.c...
+compiling ip_addr.c...
+compiling ip_frag.c...
+compiling etharp.c...
+compiling loopif.c...
+compiling slipif.c...
+compiling ethernetif.c...
+compiling sys_arch.c...
+compiling stm32f4xx_usart.c...
+compiling misc.c...
+compiling stm32f4xx_adc.c...
+compiling stm32f4xx_dma.c...
+compiling stm32f4xx_exti.c...
+compiling stm32f4xx_flash.c...
+compiling stm32f4xx_fsmc.c...
+compiling stm32f4xx_gpio.c...
+compiling stm32f4xx_rcc.c...
+compiling stm32f4xx_sdio.c...
+compiling stm32f4xx_syscfg.c...
+compiling stm32f4xx_i2c.c...
+compiling stm32f4x7_eth.c...
+compiling stm324xg_eval_lcd.c...
+compiling stm324xg_eval.c...
+compiling Printf.c...
+compiling port.c...
+compiling heap_2.c...
+compiling tasks.c...
+compiling croutine.c...
+compiling list.c...
+compiling queue.c...
+Target not created
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+..\inc\myjason.h(17): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(17): error:  #18: expected a ")"
+..\inc\myjason.h(18): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(18): error:  #18: expected a ")"
+..\inc\myjason.h(19): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(19): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(19): error:  #18: expected a ")"
+..\inc\myjason.h(20): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(27): warning:  #1-D: last line of file ends without a newline
+..\src\Myserver.c(168): warning:  #223-D: function "json_tokener_parse" declared implicitly
+..\src\Myserver.c(168): error:  #513: a value of type "int" cannot be assigned to an entity of type "struct json_object *"
+..\src\Myserver.c(172): warning:  #223-D: function "json_object_object_get" declared implicitly
+..\src\Myserver.c(172): error:  #44: expression must have pointer type
+..\src\Myserver.c(173): error:  #44: expression must have pointer type
+..\src\Myserver.c(174): error:  #44: expression must have pointer type
+..\src\Myserver.c(177): warning:  #223-D: function "json_object_put" declared implicitly
+..\src\Myserver.c(83): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(211): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(217): warning:  #177-D: variable "Ret" was declared but never referenced
+compiling myjason.c...
+..\inc\myjason.h(17): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(17): error:  #18: expected a ")"
+..\inc\myjason.h(18): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(18): error:  #18: expected a ")"
+..\inc\myjason.h(19): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(19): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(19): error:  #18: expected a ")"
+..\inc\myjason.h(20): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(27): warning:  #1-D: last line of file ends without a newline
+..\src\myjason.c(8): error:  #20: identifier "bool" is undefined
+..\src\myjason.c(10): error:  #20: identifier "bool" is undefined
+..\src\myjason.c(10): error:  #18: expected a ")"
+..\src\myjason.c(10): error:  #141-D: unnamed prototyped parameters not allowed when body is present
+..\src\myjason.c(13): error:  #20: identifier "bool" is undefined
+..\src\myjason.c(16): error:  #20: identifier "false" is undefined
+..\src\myjason.c(19): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(22): error:  #20: identifier "false" is undefined
+..\src\myjason.c(27): error:  #20: identifier "false" is undefined
+..\src\myjason.c(30): error:  #20: identifier "var" is undefined
+..\src\myjason.c(31): error:  #20: identifier "true" is undefined
+..\src\myjason.c(34): error:  #20: identifier "bool" is undefined
+..\src\myjason.c(34): error:  #18: expected a ")"
+..\src\myjason.c(34): error:  #141-D: unnamed prototyped parameters not allowed when body is present
+..\src\myjason.c(37): error:  #20: identifier "bool" is undefined
+..\src\myjason.c(40): error:  #20: identifier "false" is undefined
+..\src\myjason.c(43): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(46): error:  #20: identifier "false" is undefined
+..\src\myjason.c(51): error:  #20: identifier "false" is undefined
+..\src\myjason.c(54): error:  #20: identifier "var" is undefined
+..\src\myjason.c(55): error:  #20: identifier "true" is undefined
+..\src\myjason.c(58): error:  #20: identifier "bool" is undefined
+Target not created
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+C:\Keil\ARM\RV31\INC\rtl.h(503): error:  #101: "sockaddr" has already been declared in the current scope
+C:\Keil\ARM\RV31\INC\rtl.h(511): error:  #101: "in_addr" has already been declared in the current scope
+C:\Keil\ARM\RV31\INC\rtl.h(524): error:  #101: "sockaddr_in" has already been declared in the current scope
+..\inc\myjason.h(17): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(17): error:  #18: expected a ")"
+..\inc\myjason.h(18): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(18): error:  #18: expected a ")"
+..\inc\myjason.h(19): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(19): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(19): error:  #18: expected a ")"
+..\inc\myjason.h(20): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(27): warning:  #1-D: last line of file ends without a newline
+..\src\Myserver.c(54): error:  #513: a value of type "struct sockaddr_in *" cannot be assigned to an entity of type "struct sockaddr_in *"
+..\src\Myserver.c(57): warning:  #167-D: argument of type "u32_t *" is incompatible with parameter of type "int *"
+..\src\Myserver.c(124): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+..\src\Myserver.c(168): warning:  #223-D: function "json_tokener_parse" declared implicitly
+..\src\Myserver.c(168): error:  #513: a value of type "int" cannot be assigned to an entity of type "struct json_object *"
+..\src\Myserver.c(172): warning:  #223-D: function "json_object_object_get" declared implicitly
+..\src\Myserver.c(172): error:  #44: expression must have pointer type
+..\src\Myserver.c(173): error:  #44: expression must have pointer type
+..\src\Myserver.c(174): error:  #44: expression must have pointer type
+..\src\Myserver.c(177): warning:  #223-D: function "json_object_put" declared implicitly
+..\src\Myserver.c(83): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(258): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+..\src\Myserver.c(266): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\src\Myserver.c(211): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(217): warning:  #177-D: variable "Ret" was declared but never referenced
+compiling myjason.c...
+..\inc\myjason.h(17): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(17): error:  #18: expected a ")"
+..\inc\myjason.h(18): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(18): error:  #18: expected a ")"
+..\inc\myjason.h(19): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(19): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(19): error:  #18: expected a ")"
+..\inc\myjason.h(20): error:  #20: identifier "bool" is undefined
+..\inc\myjason.h(27): warning:  #1-D: last line of file ends without a newline
+..\src\myjason.c(8): error:  #20: identifier "bool" is undefined
+..\src\myjason.c(10): error:  #20: identifier "bool" is undefined
+..\src\myjason.c(10): error:  #18: expected a ")"
+..\src\myjason.c(10): error:  #141-D: unnamed prototyped parameters not allowed when body is present
+..\src\myjason.c(13): error:  #20: identifier "bool" is undefined
+..\src\myjason.c(16): error:  #20: identifier "false" is undefined
+..\src\myjason.c(19): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(22): error:  #20: identifier "false" is undefined
+..\src\myjason.c(27): error:  #20: identifier "false" is undefined
+..\src\myjason.c(30): error:  #20: identifier "var" is undefined
+..\src\myjason.c(31): error:  #20: identifier "true" is undefined
+..\src\myjason.c(34): error:  #20: identifier "bool" is undefined
+..\src\myjason.c(34): error:  #18: expected a ")"
+..\src\myjason.c(34): error:  #141-D: unnamed prototyped parameters not allowed when body is present
+..\src\myjason.c(37): error:  #20: identifier "bool" is undefined
+..\src\myjason.c(40): error:  #20: identifier "false" is undefined
+..\src\myjason.c(43): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(46): error:  #20: identifier "false" is undefined
+..\src\myjason.c(51): error:  #20: identifier "false" is undefined
+..\src\myjason.c(54): error:  #20: identifier "var" is undefined
+..\src\myjason.c(55): error:  #20: identifier "true" is undefined
+..\src\myjason.c(58): error:  #20: identifier "bool" is undefined
+Target not created
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+..\inc\myjason.h(16): error:  #18: expected a ")"
+..\inc\myjason.h(17): error:  #18: expected a ")"
+..\inc\myjason.h(18): error:  #18: expected a ")"
+..\inc\myjason.h(26): warning:  #1-D: last line of file ends without a newline
+..\src\Myserver.c(168): warning:  #223-D: function "json_tokener_parse" declared implicitly
+..\src\Myserver.c(168): error:  #513: a value of type "int" cannot be assigned to an entity of type "struct json_object *"
+..\src\Myserver.c(172): warning:  #223-D: function "json_object_object_get" declared implicitly
+..\src\Myserver.c(172): error:  #44: expression must have pointer type
+..\src\Myserver.c(173): error:  #44: expression must have pointer type
+..\src\Myserver.c(174): error:  #44: expression must have pointer type
+..\src\Myserver.c(177): warning:  #223-D: function "json_object_put" declared implicitly
+..\src\Myserver.c(83): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(211): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(217): warning:  #177-D: variable "Ret" was declared but never referenced
+compiling myjason.c...
+..\inc\myjason.h(16): error:  #18: expected a ")"
+..\inc\myjason.h(17): error:  #18: expected a ")"
+..\inc\myjason.h(18): error:  #18: expected a ")"
+..\inc\myjason.h(26): warning:  #1-D: last line of file ends without a newline
+..\src\myjason.c(10): error:  #18: expected a ")"
+..\src\myjason.c(10): error:  #141-D: unnamed prototyped parameters not allowed when body is present
+..\src\myjason.c(13): error:  #20: identifier "bool" is undefined
+..\src\myjason.c(16): error:  #20: identifier "false" is undefined
+..\src\myjason.c(19): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(22): error:  #20: identifier "false" is undefined
+..\src\myjason.c(27): error:  #20: identifier "false" is undefined
+..\src\myjason.c(30): error:  #20: identifier "var" is undefined
+..\src\myjason.c(31): error:  #20: identifier "true" is undefined
+..\src\myjason.c(34): error:  #18: expected a ")"
+..\src\myjason.c(34): error:  #141-D: unnamed prototyped parameters not allowed when body is present
+..\src\myjason.c(37): error:  #20: identifier "bool" is undefined
+..\src\myjason.c(40): error:  #20: identifier "false" is undefined
+..\src\myjason.c(43): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(46): error:  #20: identifier "false" is undefined
+..\src\myjason.c(51): error:  #20: identifier "false" is undefined
+..\src\myjason.c(54): error:  #20: identifier "var" is undefined
+..\src\myjason.c(55): error:  #20: identifier "true" is undefined
+..\src\myjason.c(58): error:  #18: expected a ")"
+..\src\myjason.c(58): error:  #141-D: unnamed prototyped parameters not allowed when body is present
+..\src\myjason.c(61): error:  #20: identifier "bool" is undefined
+..\src\myjason.c(64): error:  #20: identifier "false" is undefined
+..\src\myjason.c(67): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(70): error:  #20: identifier "false" is undefined
+..\src\myjason.c(75): error:  #20: identifier "false" is undefined
+..\src\myjason.c(78): error:  #20: identifier "var" is undefined
+..\src\myjason.c(78): error:  #20: identifier "true" is undefined
+Target not created
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+..\inc\myjason.h(26): warning:  #1-D: last line of file ends without a newline
+..\src\Myserver.c(168): warning:  #223-D: function "json_tokener_parse" declared implicitly
+..\src\Myserver.c(168): error:  #513: a value of type "int" cannot be assigned to an entity of type "struct json_object *"
+..\src\Myserver.c(172): warning:  #223-D: function "json_object_object_get" declared implicitly
+..\src\Myserver.c(172): error:  #44: expression must have pointer type
+..\src\Myserver.c(173): error:  #44: expression must have pointer type
+..\src\Myserver.c(174): error:  #44: expression must have pointer type
+..\src\Myserver.c(177): warning:  #223-D: function "json_object_put" declared implicitly
+..\src\Myserver.c(83): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(211): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(217): warning:  #177-D: variable "Ret" was declared but never referenced
+compiling myjason.c...
+..\inc\myjason.h(26): warning:  #1-D: last line of file ends without a newline
+..\src\myjason.c(13): error:  #20: identifier "bool" is undefined
+..\src\myjason.c(16): error:  #20: identifier "false" is undefined
+..\src\myjason.c(19): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(22): error:  #20: identifier "false" is undefined
+..\src\myjason.c(27): error:  #20: identifier "false" is undefined
+..\src\myjason.c(30): error:  #513: a value of type "long" cannot be assigned to an entity of type "int *"
+..\src\myjason.c(31): error:  #20: identifier "true" is undefined
+..\src\myjason.c(10): warning:  #550-D: parameter "var" was set but never used
+..\src\myjason.c(37): error:  #20: identifier "bool" is undefined
+..\src\myjason.c(40): error:  #20: identifier "false" is undefined
+..\src\myjason.c(43): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(46): error:  #20: identifier "false" is undefined
+..\src\myjason.c(51): error:  #20: identifier "false" is undefined
+..\src\myjason.c(54): error:  #513: a value of type "double" cannot be assigned to an entity of type "double *"
+..\src\myjason.c(55): error:  #20: identifier "true" is undefined
+..\src\myjason.c(34): warning:  #550-D: parameter "var" was set but never used
+..\src\myjason.c(61): error:  #20: identifier "bool" is undefined
+..\src\myjason.c(64): error:  #20: identifier "false" is undefined
+..\src\myjason.c(67): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(70): error:  #20: identifier "false" is undefined
+..\src\myjason.c(75): error:  #20: identifier "false" is undefined
+..\src\myjason.c(78): error:  #20: identifier "true" is undefined
+..\src\myjason.c(78): error:  #20: identifier "false" is undefined
+..\src\myjason.c(58): warning:  #550-D: parameter "var" was set but never used
+..\src\myjason.c(85): error:  #20: identifier "bool" is undefined
+..\src\myjason.c(88): error:  #20: identifier "false" is undefined
+..\src\myjason.c(91): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(94): error:  #20: identifier "false" is undefined
+..\src\myjason.c(99): error:  #20: identifier "false" is undefined
+..\src\myjason.c(103): error:  #20: identifier "true" is undefined
+..\src\myjason.c(110): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(119): error:  #20: identifier "false" is undefined
+..\src\myjason.c(123): error:  #268: declaration may not appear after executable statement in block
+Target not created
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+..\inc\myjason.h(26): warning:  #1-D: last line of file ends without a newline
+..\src\Myserver.c(82): warning:  #177-D: variable "cmd_obj" was declared but never referenced
+..\src\Myserver.c(83): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(84): warning:  #177-D: variable "type" was declared but never referenced
+..\src\Myserver.c(85): warning:  #177-D: variable "addr" was declared but never referenced
+..\src\Myserver.c(86): warning:  #177-D: variable "value" was declared but never referenced
+..\src\Myserver.c(211): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(217): warning:  #177-D: variable "Ret" was declared but never referenced
+compiling myjason.c...
+..\inc\myjason.h(26): warning:  #1-D: last line of file ends without a newline
+..\src\myjason.c(13): error:  #20: identifier "bool" is undefined
+..\src\myjason.c(16): error:  #20: identifier "false" is undefined
+..\src\myjason.c(19): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(22): error:  #20: identifier "false" is undefined
+..\src\myjason.c(27): error:  #20: identifier "false" is undefined
+..\src\myjason.c(30): error:  #513: a value of type "long" cannot be assigned to an entity of type "int *"
+..\src\myjason.c(31): error:  #20: identifier "true" is undefined
+..\src\myjason.c(10): warning:  #550-D: parameter "var" was set but never used
+..\src\myjason.c(37): error:  #20: identifier "bool" is undefined
+..\src\myjason.c(40): error:  #20: identifier "false" is undefined
+..\src\myjason.c(43): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(46): error:  #20: identifier "false" is undefined
+..\src\myjason.c(51): error:  #20: identifier "false" is undefined
+..\src\myjason.c(54): error:  #513: a value of type "double" cannot be assigned to an entity of type "double *"
+..\src\myjason.c(55): error:  #20: identifier "true" is undefined
+..\src\myjason.c(34): warning:  #550-D: parameter "var" was set but never used
+..\src\myjason.c(61): error:  #20: identifier "bool" is undefined
+..\src\myjason.c(64): error:  #20: identifier "false" is undefined
+..\src\myjason.c(67): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(70): error:  #20: identifier "false" is undefined
+..\src\myjason.c(75): error:  #20: identifier "false" is undefined
+..\src\myjason.c(78): error:  #20: identifier "true" is undefined
+..\src\myjason.c(78): error:  #20: identifier "false" is undefined
+..\src\myjason.c(58): warning:  #550-D: parameter "var" was set but never used
+..\src\myjason.c(85): error:  #20: identifier "bool" is undefined
+..\src\myjason.c(88): error:  #20: identifier "false" is undefined
+..\src\myjason.c(91): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(94): error:  #20: identifier "false" is undefined
+..\src\myjason.c(99): error:  #20: identifier "false" is undefined
+..\src\myjason.c(103): error:  #20: identifier "true" is undefined
+..\src\myjason.c(110): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(119): error:  #20: identifier "false" is undefined
+..\src\myjason.c(123): error:  #268: declaration may not appear after executable statement in block
+Target not created
+Build target 'STM324xG_EVAL'
+compiling myjason.c...
+..\inc\myjason.h(26): warning:  #1-D: last line of file ends without a newline
+..\src\myjason.c(19): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(30): error:  #513: a value of type "long" cannot be assigned to an entity of type "int *"
+..\src\myjason.c(10): warning:  #550-D: parameter "var" was set but never used
+..\src\myjason.c(43): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(54): error:  #513: a value of type "double" cannot be assigned to an entity of type "double *"
+..\src\myjason.c(34): warning:  #550-D: parameter "var" was set but never used
+..\src\myjason.c(67): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(78): error:  #20: identifier "true" is undefined
+..\src\myjason.c(78): error:  #20: identifier "false" is undefined
+..\src\myjason.c(58): warning:  #550-D: parameter "var" was set but never used
+..\src\myjason.c(91): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(110): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(123): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(126): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(133): error:  #29: expected an expression
+..\src\myjason.c(133): error:  #20: identifier "i" is undefined
+..\src\myjason.c(138): error:  #20: identifier "j" is undefined
+Target not created
+Build target 'STM324xG_EVAL'
+compiling myjason.c...
+..\inc\myjason.h(26): warning:  #1-D: last line of file ends without a newline
+..\src\myjason.c(31): error:  #513: a value of type "long" cannot be assigned to an entity of type "int *"
+..\src\myjason.c(10): warning:  #550-D: parameter "var" was set but never used
+..\src\myjason.c(56): error:  #513: a value of type "double" cannot be assigned to an entity of type "double *"
+..\src\myjason.c(35): warning:  #550-D: parameter "var" was set but never used
+..\src\myjason.c(81): error:  #20: identifier "true" is undefined
+..\src\myjason.c(81): error:  #20: identifier "false" is undefined
+..\src\myjason.c(60): warning:  #550-D: parameter "var" was set but never used
+..\src\myjason.c(114): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(127): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(130): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(137): error:  #29: expected an expression
+..\src\myjason.c(137): error:  #20: identifier "i" is undefined
+..\src\myjason.c(142): error:  #20: identifier "j" is undefined
+Target not created
+Build target 'STM324xG_EVAL'
+compiling myjason.c...
+..\inc\myjason.h(26): warning:  #1-D: last line of file ends without a newline
+..\src\myjason.c(56): error:  #513: a value of type "double" cannot be assigned to an entity of type "double *"
+..\src\myjason.c(35): warning:  #550-D: parameter "var" was set but never used
+..\src\myjason.c(81): error:  #20: identifier "true" is undefined
+..\src\myjason.c(81): error:  #20: identifier "false" is undefined
+..\src\myjason.c(60): warning:  #550-D: parameter "var" was set but never used
+..\src\myjason.c(114): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(127): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(130): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(137): error:  #29: expected an expression
+..\src\myjason.c(137): error:  #20: identifier "i" is undefined
+..\src\myjason.c(142): error:  #20: identifier "j" is undefined
+Target not created
+Build target 'STM324xG_EVAL'
+compiling myjason.c...
+..\inc\myjason.h(26): warning:  #1-D: last line of file ends without a newline
+..\src\myjason.c(81): error:  #20: identifier "true" is undefined
+..\src\myjason.c(81): error:  #20: identifier "false" is undefined
+..\src\myjason.c(60): warning:  #550-D: parameter "var" was set but never used
+..\src\myjason.c(114): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(127): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(130): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(137): error:  #29: expected an expression
+..\src\myjason.c(137): error:  #20: identifier "i" is undefined
+..\src\myjason.c(142): error:  #20: identifier "j" is undefined
+Target not created
+Build target 'STM324xG_EVAL'
+compiling myjason.c...
+..\inc\myjason.h(26): warning:  #1-D: last line of file ends without a newline
+..\src\myjason.c(81): error:  #20: identifier "true" is undefined
+..\src\myjason.c(81): error:  #20: identifier "false" is undefined
+..\src\myjason.c(114): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(127): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(130): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(137): error:  #29: expected an expression
+..\src\myjason.c(137): error:  #20: identifier "i" is undefined
+..\src\myjason.c(142): error:  #20: identifier "j" is undefined
+Target not created
+Build target 'STM324xG_EVAL'
+compiling myjason.c...
+..\inc\myjason.h(26): warning:  #1-D: last line of file ends without a newline
+..\src\myjason.c(114): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(127): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(130): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(137): error:  #29: expected an expression
+..\src\myjason.c(137): error:  #20: identifier "i" is undefined
+..\src\myjason.c(142): error:  #20: identifier "j" is undefined
+Target not created
+Build target 'STM324xG_EVAL'
+compiling myjason.c...
+..\inc\myjason.h(26): warning:  #1-D: last line of file ends without a newline
+..\src\myjason.c(127): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(130): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(137): error:  #29: expected an expression
+..\src\myjason.c(137): error:  #20: identifier "i" is undefined
+..\src\myjason.c(142): error:  #20: identifier "j" is undefined
+Target not created
+Build target 'STM324xG_EVAL'
+compiling myjason.c...
+..\inc\myjason.h(26): warning:  #1-D: last line of file ends without a newline
+..\src\myjason.c(131): error:  #268: declaration may not appear after executable statement in block
+..\src\myjason.c(138): error:  #29: expected an expression
+..\src\myjason.c(138): error:  #20: identifier "i" is undefined
+..\src\myjason.c(143): error:  #20: identifier "j" is undefined
+Target not created
+Build target 'STM324xG_EVAL'
+compiling myjason.c...
+..\inc\myjason.h(26): warning:  #1-D: last line of file ends without a newline
+..\src\myjason.c(139): error:  #29: expected an expression
+..\src\myjason.c(139): error:  #20: identifier "i" is undefined
+..\src\myjason.c(144): error:  #20: identifier "j" is undefined
+Target not created
+Build target 'STM324xG_EVAL'
+compiling myjason.c...
+..\inc\myjason.h(26): warning:  #1-D: last line of file ends without a newline
+..\src\myjason.c(140): error:  #20: identifier "j" is undefined
+Target not created
+Build target 'STM324xG_EVAL'
+compiling myjason.c...
+..\inc\myjason.h(26): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=37112 RO-data=6384 RW-data=452 ZI-data=52900  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 1 Warning(s).
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+..\inc\myjason.h(26): warning:  #1-D: last line of file ends without a newline
+..\src\Myserver.c(169): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\src\Myserver.c(82): warning:  #177-D: variable "cmd_obj" was declared but never referenced
+..\src\Myserver.c(83): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(84): warning:  #177-D: variable "type" was declared but never referenced
+..\src\Myserver.c(85): warning:  #177-D: variable "addr" was declared but never referenced
+..\src\Myserver.c(86): warning:  #177-D: variable "value" was declared but never referenced
+..\src\Myserver.c(215): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(221): warning:  #177-D: variable "Ret" was declared but never referenced
+linking...
+Program Size: Code=37460 RO-data=6384 RW-data=452 ZI-data=52900  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 9 Warning(s).
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM324xG_EVAL'
+compiling myjason.c...
+..\inc\myjason.h(26): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=37460 RO-data=6384 RW-data=452 ZI-data=52900  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 1 Warning(s).
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM324xG_EVAL'
+compiling Myserver.c...
+..\inc\myjason.h(26): warning:  #1-D: last line of file ends without a newline
+..\src\Myserver.c(170): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\src\Myserver.c(173): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\src\Myserver.c(176): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\src\Myserver.c(82): warning:  #177-D: variable "cmd_obj" was declared but never referenced
+..\src\Myserver.c(83): warning:  #177-D: variable "temp_obj" was declared but never referenced
+..\src\Myserver.c(84): warning:  #177-D: variable "type" was declared but never referenced
+..\src\Myserver.c(85): warning:  #177-D: variable "addr" was declared but never referenced
+..\src\Myserver.c(86): warning:  #177-D: variable "value" was declared but never referenced
+..\src\Myserver.c(227): warning:  #177-D: variable "Socket" was declared but never referenced
+..\src\Myserver.c(233): warning:  #177-D: variable "Ret" was declared but never referenced
+linking...
+Program Size: Code=37956 RO-data=6520 RW-data=456 ZI-data=52904  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 11 Warning(s).
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM324xG_EVAL'
+compiling myjason.c...
+..\inc\myjason.h(26): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=37956 RO-data=6520 RW-data=456 ZI-data=52904  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM324xG_EVAL.axf" - 0 Error(s), 1 Warning(s).
+Load "D:\\work\\Keil\\STM32\\F407ZG\\RTOS\\Project\\FreeRTOS\\httpserver_socket\\MDK-ARM\\STM324xG_EVAL\\STM324xG_EVAL.AXF" 
+Set JLink Project File to "D:\work\Keil\STM32\F407ZG\RTOS\Project\FreeRTOS\httpserver_socket\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Jan 29 2010 19:34:13
+Hardware: V8.00
+S/N : 20100416 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.242V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
