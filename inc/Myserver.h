@@ -24,8 +24,10 @@ typedef struct _newconnIfo
 
 typedef struct _mxgHeader
 {
+   int headStart;
    int tag;
    int length;
+   int headEnd;
 }mxgHeader;
 
 

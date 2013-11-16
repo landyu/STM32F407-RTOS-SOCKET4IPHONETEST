@@ -8,6 +8,7 @@
 #include "string.h"
 #include "Myserver.h"
 #include "myjason.h"
+//#include "zllSocCmd.h"
 
 //#include "json.h"
 //#include "json_object_private.h"
@@ -73,11 +74,11 @@ void handleLongConnTask(void * pvParameters)
 	fd_set FdRead;
 	int ret;
 	int recLen = 0;
-	int jasonLen = 0;
+    int jasonLen = 0;
 	int recStatus = REC_JASON_HEAD;
 	mxgHeader smxgHeader;
-	unsigned char ReCvBuf[128] = {0};
-	unsigned char jasonReCvBuf[128] = {0};
+	unsigned char ReCvBuf[1024] = {0};
+	unsigned char jasonReCvBuf[1024] = {0};
 	struct timeval timeVal = {0};
 	struct json_object*  cmd_obj = NULL;
 	struct json_object*  temp_obj = NULL;
@@ -86,6 +87,7 @@ void handleLongConnTask(void * pvParameters)
 	int value = 0;
 	char temp[32] = {0};
 	int  tempVal;
+	int headIndex, index;
 
 	timeVal.tv_sec = 2;
 	timeVal.tv_usec =0;
@@ -96,7 +98,7 @@ void handleLongConnTask(void * pvParameters)
 
 		if( xNewConnQue != NULL )
 		    {
-				 xQueueReceive( xNewConnQue, &( sNewconnIfo ), portMAX_DELAY);
+				xQueueReceive( xNewConnQue, &( sNewconnIfo ), portMAX_DELAY);
 				printf("get new conn\r\n");
 				 FD_ZERO(&FdRead);
 				 FD_SET(sNewconnIfo.newconn, &FdRead);
@@ -113,7 +115,7 @@ sktselect:
 				}
 				else if(-1 == ret) //system error
 				{
-					printf("select error\r\n");
+				 	printf("select error\r\n");
 					FD_CLR(sNewconnIfo.newconn, &FdRead);
 					close(sNewconnIfo.newconn);
 					continue;
@@ -132,38 +134,73 @@ sktselect:
 							continue;
 						}
 					  recLen += ret;
+headfind:
 					  if(recStatus == REC_JASON_HEAD)
-					  {
-					  	
-					  	if(recLen >= 8)
+					  {				
+						printf("head.....\r\n");	  	
+					  	if(recLen >= 16)
 						  {
-						  	 memcpy(&smxgHeader, ReCvBuf, 8);
-							 printf("ReCvBuf[0] = %x \r\n", ReCvBuf[0]);
-							 printf("ReCvBuf[1] = %x \r\n", ReCvBuf[1]);
-							 printf("ReCvBuf[2] = %x \r\n", ReCvBuf[2]);
-							 printf("ReCvBuf[3] = %x \r\n", ReCvBuf[3]);
-							 printf("ReCvBuf[4] = %x \r\n", ReCvBuf[4]);
-							 printf("ReCvBuf[5] = %x \r\n", ReCvBuf[5]);
-							 printf("ReCvBuf[6] = %x \r\n", ReCvBuf[6]);
-							 printf("ReCvBuf[7] = %x \r\n", ReCvBuf[7]);
+						  	 headIndex = isHead(ReCvBuf, recLen);
+							 printf("headIndex = %d\r\n", headIndex);
+						  	 if(headIndex >= 0)
+							 {
+							 	memcpy(&smxgHeader, ReCvBuf + headIndex, 16);
+//							 printf("ReCvBuf[0] = %x \r\n", ReCvBuf[0]);
+//							 printf("ReCvBuf[1] = %x \r\n", ReCvBuf[1]);
+//							 printf("ReCvBuf[2] = %x \r\n", ReCvBuf[2]);
+//							 printf("ReCvBuf[3] = %x \r\n", ReCvBuf[3]);
+//							 printf("ReCvBuf[4] = %x \r\n", ReCvBuf[4]);
+//							 printf("ReCvBuf[5] = %x \r\n", ReCvBuf[5]);
+//							 printf("ReCvBuf[6] = %x \r\n", ReCvBuf[6]);
+//							 printf("ReCvBuf[7] = %x \r\n", ReCvBuf[7]);
+//							 printf("ReCvBuf[8] = %x \r\n", ReCvBuf[8]);
 							 jasonLen = smxgHeader.length;
-							 printf("len = %d\r\n", jasonLen);
+//							 printf("len = %d\r\n", jasonLen);
 							 recStatus = REC_JASON_DATA;
-							 recLen -=8;
+							 for(index = headIndex; index < recLen - 16; index++)
+							 {
+							 	ReCvBuf[index] = ReCvBuf[index+16];
+							 }
+							 ret = recLen -=16;
+							 }
+							 else if(headIndex == -1) //find no head
+							 {
+							 	 recLen = 0;
+							 }
+							 
 						  }
 					  }
+doData:
 					 if(recStatus == REC_JASON_DATA)
 					  {
-					  	  if(recLen > jasonLen)
+					  		printf("test1 ----> %s \r\n", ReCvBuf);
+					  	  printf("data.....rec = %d jason = %d ret = %d\r\n",recLen , jasonLen, ret);
+						  if(recLen > jasonLen)
 						  {
-						  	printf("111111111111111111\r\n");
-						  	memcpy(jasonReCvBuf + recLen - ret, ReCvBuf, ret - (recLen - jasonLen));
+						  	
+							printf("111111111111111111 jasonLen = %d  reclen = %d ret = %d\r\n",jasonLen ,  recLen, ret);
+						  	memcpy(jasonReCvBuf, ReCvBuf, jasonLen);
+							if(!getJsonValueAsString(jasonReCvBuf,"type",temp,sizeof temp))
+								printf("type : %s\r\n", temp);
+
+							if(!getJsonValueAsString(jasonReCvBuf,"addr",temp,sizeof temp))
+								printf("addr : %s\r\n", temp);
+
+							if(!getJsonValueAsInt(jasonReCvBuf,"value",&tempVal))
+								printf("value : %d\r\n", tempVal);
+								
+
+							memset(jasonReCvBuf, 0x0, sizeof jasonReCvBuf);
+							recLen -= jasonLen;
+							recStatus = REC_JASON_HEAD ;
+							goto headfind;
+
 						  }
 						  else if(recLen == jasonLen)
 						  {
-						  	printf("22222222222222\r\n");
-						  	memcpy(jasonReCvBuf + recLen - ret, ReCvBuf, ret);
-							printf("test ----> %s \r\n", jasonReCvBuf);
+						  	printf("22222222222222  rec len = %d\r\n", recLen);
+						  	memcpy(jasonReCvBuf , ReCvBuf , jasonLen);
+							printf("test2 ----> %s \r\n", jasonReCvBuf);
 							recLen = 0;
 							recStatus = REC_JASON_HEAD ;
 
@@ -174,7 +211,16 @@ sktselect:
 								printf("addr : %s\r\n", temp);
 
 							if(!getJsonValueAsInt(jasonReCvBuf,"value",&tempVal))
+							{
 								printf("value : %d\r\n", tempVal);
+//								if(tempVal == 0)
+//								zllSocTouchLink();
+//								else if(tempVal == 1)
+//								zllSocSetLevelUp();
+//								else if(tempVal == 2)
+//								zllSocSetLevelDown();
+							}
+								
 
 								memset(jasonReCvBuf, 0x0, sizeof jasonReCvBuf);
 
@@ -195,8 +241,10 @@ sktselect:
 						  }
 						  else
 						  {
-						  	printf("111111111111111111\r\n");
-							memcpy(jasonReCvBuf + recLen - ret, ReCvBuf, ret);
+						  	printf("3333333333\r\n");
+							memcpy(jasonReCvBuf + recLen - ret, ReCvBuf, recLen);
+							if(recLen >= jasonLen)
+							goto doData;
 						  }
 						  	
 							
@@ -292,7 +340,7 @@ void handleNewConnTask(void * pvParameters)
 			    }
 			else
 				{
-					printf("xNewConnQue is NULL and this task is about to suspend\r\n");
+					//printf("xNewConnQue is NULL and this task is about to suspend\r\n");
 					// Suspend ourselves.
     				 vTaskSuspend( NULL );
 					

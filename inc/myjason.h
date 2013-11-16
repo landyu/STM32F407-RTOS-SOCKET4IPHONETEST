@@ -1,6 +1,6 @@
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef  __RCC_FUNC_H__
-#define  __RCC_FUNC_H__
+#ifndef  __MYJASON_H__
+#define  __MYJASON_H__
 
 #ifdef __cplusplus
 extern "C" {
@@ -12,7 +12,7 @@ extern "C" {
 /* Exported functions --------------------------------------------------------*/
 
 
-
+int isHead(unsigned char *buf, unsigned int bufLen);
 int getJsonValueAsInt(const char* json_str,const char* key, int *var);
 int getJsonValueAsDouble(const char* json_str,const char* key, double * var);
 int getJsonValueAsBool(const char* json_str,const char* key, int * var);
