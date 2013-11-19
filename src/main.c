@@ -107,11 +107,11 @@ int main(void)
  // xTaskCreate(ToggleLed1, "SZWLED1", configMINIMAL_STACK_SIZE, NULL, LED_TASK_PRIO, NULL);
     
   /* Start toogleLed2 task : Toggle LED2  every 250ms */
-  printf("\n\r FreeRTOS V6.1.0 xTaskCreate ToggleLed2\r\n");
-  xTaskCreate(ToggleLed2, "SZWLED2", configMINIMAL_STACK_SIZE, NULL, LED_TASK_PRIO, NULL);
+  //printf("\n\r FreeRTOS V6.1.0 xTaskCreate ToggleLed2\r\n");
+  //xTaskCreate(ToggleLed2, "SZWLED2", configMINIMAL_STACK_SIZE, NULL, LED_TASK_PRIO, NULL);
 
   /* Start toogleLed3 task : Toggle LED3  every 250ms */
- // printf("\n\r FreeRTOS V6.1.0 xTaskCreate ToggleLed3\r\n");
+  //printf("\n\r FreeRTOS V6.1.0 xTaskCreate ToggleLed3\r\n");
   //xTaskCreate(ToggleLed3, "SZWLED3", configMINIMAL_STACK_SIZE, NULL, LED_TASK_PRIO, NULL);
 
 

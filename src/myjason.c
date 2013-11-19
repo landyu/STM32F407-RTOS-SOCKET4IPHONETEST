@@ -3,6 +3,8 @@
 #include<stdlib.h>
 #include "myjason.h"
 
+
+
 //const char* json_str = "{ \"type\": \"EIBS\", \"addr\": \"0/0/0\", \"value\": 1 , \"happy\":true, \"val\":-1.005}";
 
 int get_json_str(const char* js_str, const char* key, char* buff,int buff_size);
@@ -154,28 +156,7 @@ int get_json_str(const char* js_str, const char* key, char* buff,int buff_size)
     return -1;
 }
 
-int isHead(unsigned char *buf, unsigned int bufLen)
-{
-	unsigned int index;	
 
-	if(bufLen < 9)
-	{
-		printf("buf len = %d is less than 9\r\n", bufLen);
-		return -2;
-	}
-	
-	for(index = 0 ; index <= (bufLen - 9); index++)
-   {
-   		if(buf[index] == '\r')  //seems to find the head
-		{
-			 if(buf[index +1] == '\n' && buf[index +2] == '\r' && buf[index +3] == '\n' && buf[index +12] == '\r' && buf[index +13] == '\n' && buf[index +14] == '\r' && buf[index +15] == '\n')
-			 return index;
-		}
-   }
-
-   return -1;
-		
-}
 
 //int main(int argc,char*[])
 //{

@@ -11,8 +11,6 @@ extern "C" {
 /* Exported macro ------------------------------------------------------------*/
 /* Exported functions --------------------------------------------------------*/
 
-
-int isHead(unsigned char *buf, unsigned int bufLen);
 int getJsonValueAsInt(const char* json_str,const char* key, int *var);
 int getJsonValueAsDouble(const char* json_str,const char* key, double * var);
 int getJsonValueAsBool(const char* json_str,const char* key, int * var);

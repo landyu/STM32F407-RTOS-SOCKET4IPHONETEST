@@ -1,6 +1,6 @@
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef  __MYSERVER_H__
-#define  __MYSERVER_H__
+#ifndef  __JSONACTION_H__
+#define  __JSONACTION_H__
 
 #ifdef __cplusplus
 extern "C" {
@@ -8,37 +8,25 @@ extern "C" {
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f4xx.h"
 #include "FreeRTOS.h"
+#include "queue.h"
 #include "semphr.h"
-
 /* Exported types ------------------------------------------------------------*/
-
-
-#define REC_JASON_HEAD 0
-#define REC_JASON_DATA 1
-
-typedef struct _newconnIfo
+#define JSONDATANUM 10
+#define JSONDATAMAXLEN 128
+typedef struct _jsonPak
 {
-	int newconn;
-	struct sockaddr_in *premotehost;
-}NewconnIfo;
-
-
-typedef struct _mxgHeader
-{
-   int headStart;
-   int tag;
-   int length;
-   int headEnd;
-}mxgHeader;
-
-
-
-extern xQueueHandle xNewConnQue;
-
+	unsigned int length;
+	unsigned char * pjsonData;
+}jsonPak;
 /* Exported constants --------------------------------------------------------*/
+extern xQueueHandle xJsonPakFilledQue;
+extern xQueueHandle xJsonPakEmptyQue;
+extern unsigned char jsonData[JSONDATANUM][JSONDATAMAXLEN];
+extern unsigned char *arrayForJsonDataPrt[JSONDATANUM];
 /* Exported macro ------------------------------------------------------------*/
 /* Exported functions --------------------------------------------------------*/
-void my_server_socket_init(void);
+int splitJsonTCPStr(unsigned char *dataBuf, unsigned int dataLen);
+int isHead(unsigned char *buf, unsigned int bufLen);
 
 
 

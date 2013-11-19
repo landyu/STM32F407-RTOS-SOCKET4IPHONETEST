@@ -68,3 +68,6 @@
 .\STM324xG_EVAL\myserver.o: ..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h
 .\STM324xG_EVAL\myserver.o: ..\..\..\..\Utilities\Third_Party\FreeRTOS_v6.1.0\include\semphr.h
 .\STM324xG_EVAL\myserver.o: ..\inc\myjason.h
+.\STM324xG_EVAL\myserver.o: ..\inc\jsonAction.h
+.\STM324xG_EVAL\myserver.o: ..\..\..\..\Utilities\Third_Party\FreeRTOS_v6.1.0\include\queue.h
+.\STM324xG_EVAL\myserver.o: ..\..\..\..\Utilities\Third_Party\FreeRTOS_v6.1.0\include\semphr.h
